@@ -22,5 +22,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>rdc-releases</id>
+			<url>https://repo.rdc.aliyun.com/repository/120088-release-ca3ozk/</url>
+		</repository>
+		<snapshotRepository>
+			<id>rdc-snapshots</id>
+			<url>https://repo.rdc.aliyun.com/repository/120088-snapshot-uFp63M/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	
 </project>
